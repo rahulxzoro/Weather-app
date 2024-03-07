@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+.w 
+{
+    text-align: center;
+}
+
+
+  .clear-sky {
+    background-color: #87CEEB; /* Light Blue */
+}
+
+.cloudy {
+    background-color: #778899; /* Light Slate Gray */
+}
+
+.rainy {
+    background-color: #708090; /* Slate Gray */
+}
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+  }
+  
+  #weatherInfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #weatherInfo p {
+    margin: 5px 0;
+  }
+  
+  .weather-form {
+    width: 300px; /* Set the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+
